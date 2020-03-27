@@ -1,0 +1,69 @@
+body{
+	/*background-color: grey;*/
+  font-family: 'Merriweather';
+
+background-image:url("../assets/1.jpg");
+  z-index:-20;
+
+    /* Center and scale the image nicely */
+   background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+
+
+	text-align: center;
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 5%;
+/*  background-color: #575757;*/
+}
+
+.card-img{
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+img{
+  border-radius: 50%;
+  max-width: 50%;
+  max-height: 50%;
+
+}
+
+.card {
+  position: absolute;
+  width: 50%;
+  height: 95%;
+  margin: auto;
+  padding: 12px;
+  border-radius: 10%;
+  text-align: center;
+  color: #ac8181;
+  font-size: 20px;
+
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
+.link-container{
+  display: flex;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 10px;
+
+  font-size: 50px;
+  justify-content: space-evenly;
+}
